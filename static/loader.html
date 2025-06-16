@@ -47,6 +47,9 @@
   <script src="/assets/js/tabs.js?v=3"></script>
   <script>
     startInterval();
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
   </script>
 </body>
 </html>
