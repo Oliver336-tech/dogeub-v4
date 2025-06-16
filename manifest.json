@@ -1,0 +1,13 @@
+{
+  "name": "Doge Unblocker",
+  "short_name": "DogeUB",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#222",
+  "theme_color": "#4f8cff",
+  "description": "A fast, stealthy web proxy for unblocking sites.",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
